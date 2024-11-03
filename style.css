@@ -436,7 +436,7 @@ footer div{
     .title {
         padding-bottom: 50px;
         padding-top: 0;
-        font-size: 40px;
+        font-size: 30px;
         line-height: 96.82px;
         color: #fff;
         text-shadow: 5px 5px 0 #000000;
@@ -450,8 +450,10 @@ footer div{
     }
     .example {
         margin: 10px auto;
+        width: 301px;
+        height: 196px;
     }
-    #works-examples, #reviews, #about {
+    #works-examples, #reviews, #about, #skills {
         height: auto;
     }
     .comment, .comments, .examples, footer {
@@ -512,5 +514,24 @@ footer div{
     .mobile-nav-links {
         display: flex;
         flex-direction: column;
+    }
+    .works {
+        width: 320px;
+    }
+    .subtitle {
+        font-size: 15px;
+    }
+    .subtitle-set {
+        padding-top: 30px;
+    }
+    .lang {
+        width: 88px;
+        height: 88px;
+    }
+    .programming-langs {
+        padding-top: 10px;
+    }
+    .btn-skills {
+        left: 60px;
     }
 }
