@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="head">
+            <a href="#main" class="logo" onclick="hide()">KM</a>
+            <div class="nav">
+                <a href="#main" class="link main-link active-link">Главная</a>
+                <a href="#about" class="link about-link">Обо мне</a>
+                <a href="#skills" class="link skills-link">Навыки</a>
+                <a href="#works-examples" class="link works-link">Работы</a>
+                <a href="#reviews" class="link reviews-link">Отзывы</a>
+            </div>
+            <!-- <img src="imgs/img/mobile_menu.png" alt=""> -->
+            <div class="mobile-button">
+                <img src="imgs/img/mobile_menu.png" alt="" width="40px">
+            </div>
+            <div class="mobile-menu hide">
+                <div class="mobile-nav">
+                    <div class="mobile-nav-links">
+                        <a href="#main" class="nav-link" onclick="hide()">Главная</a><br>
+                        <a href="#about" class="nav-link" onclick="hide()">Обо мне</a><br>
+                        <a href="#skills" class="nav-link" onclick="hide()">Навыки</a><br>
+                        <a href="#works-examples" class="nav-link" onclick="hide()">Работы</a><br>
+                        <a href="#reviews" class="nav-link" onclick="hide()">Отзывы</a>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </nav>
+    <section id="main">
+        <div class="form-1">
+            <h1 class="name">КЛИМ МЕКЛУЦАНС</h1>
+            <p class="text">личный сайт веб разработчика</p>
+            <a href="#about" class="btn">Подробнее</a>
+        </div>
+        <img src="imgs/img/planet.png" alt="" class="planet">
+        <img src="imgs/img/moving-planet.png" alt="" class="moving-planet">
+    </section>
+    <section id="about">
+        <h1 class="title">ОБО МНЕ</h1>
+        <div class="info">
+            <div class="text-inf">
+                <p class="text-about">Меня зовут Клим. Я занимаюсь разработкой современных сайтов и приложений. <br><br> Мне нравится создавать интересные и современные проекты.</p>
+                <div class="button">
+                    <a href="#skills" class="btn1">Мои навыки</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imgs/img/maskot.png" alt="" class="me">
+                <p class="fat"><b>Где живу:</b> Португалия</p>
+                <p class="fat"><b>Возраст:</b> Возраст: 15</p>
+                <p class="fat"><b>Дата рождения:</b> 2009</p>
+            </div>
+        </div>
+        <img src="imgs/img/cloud.png" alt="" class="moving-cloud">
+    </section>
+    <section id="skills">
+        <h1 class="title">НАВЫКИ</h1>
+        <div class="works">
+            <div class="subtitle-set">
+                <p class="subtitle">ЭТОТ САЙТ Я СДЕЛАЛ В РАМКАХ ОБУЧЕНИЯ ШКОЛЫ 
+                    ROCKET TECH SCHOOL</p>
+            </div>
+            <div class="programming-langs">
+                <img src="imgs/img/html.png" alt="">
+                <img src="imgs/img/css.png" alt="">
+                <img src="imgs/img/js.png" alt="">
+            </div>  
+            <div class="btn-skills">
+                <a href="#works-examples" class="btn1">Смотреть работы</a>
+            </div>
+        </div>
+    </section>
+    <section id="works-examples">
+        <h1 class="title">РАБОТЫ</h1>
+        <div class="examples">
+            <img src="imgs/img/site-1.png" alt="" class="example">
+            <img src="imgs/img/site-2.png" alt="" class="example">
+            <img src="imgs/img/site-3.png" alt="" class="example">
+        </div>
+    </section>
+    <section id="reviews">
+        <h1 class="title">ОТЗЫВЫ</h1>
+        <div class="comments">
+            <div class="comment">
+                <div class="comment-author">
+                    <img src="imgs/img/photo1.png" alt="" class="person">
+                    <p class="subtitle">ВЛАДИМИР</p>
+                    <p class="text-review">Основатель<br>Rocket Tech<br>School</p>
+                </div>
+                <div class="comment-text">
+                    <p class="comment-font">Этот чел просто<br>крут</p>
+                </div>
+            </div>
+            <div class="comment">
+                <div class="comment-author">
+                    <img src="imgs/img/photo1.png" alt="" class="person">
+                    <p class="subtitle">ВЛАДИМИР</p>
+                    <p class="text-review">Основатель<br>Rocket Tech<br>School</p>
+                </div>
+                <div class="comment-text">
+                    <p class="comment-font">Это снова<br>я лол</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="basement-text">
+            <p>КЛИМЕНТИЙ МЕКЛУЦАНС</p>
+            <p>Личный сайт веб разработчика</p>
+        </div>
+        <div>
+            <p class="year">(c) 2023</p>
+        </div>
+        <div class="contacts">
+            <a href="discord.html"><img src="imgs/img/discord.svg" alt=""></a>
+            <a href="https://t.me/Consultant_022022" target="_blank"><img src="imgs/img/telegram.svg" alt=""></a>
+            <a href="https://www.instagram.com/klimentiimeklutsans?utm_source=qr&igsh=dmJobjdsNGhkNDhz"><img src="imgs/img/instagram.svg" alt=""></a>
+            <a href="facebook.html"><img src="imgs/img/facebook.svg" alt=""></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
